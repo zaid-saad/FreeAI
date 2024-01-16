@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    padding: 10px;
+}
+
+.main .image-container .image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .image-container .image img{
+    width: 220px;
+    align-items: center;
+}
+.main .image-container h1{
+    color: #00bcd4;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.main .image-container p{
+    color: #324042;
+    text-align: center;
+    margin-bottom: 40px;
+   font-size: large;
+}
+.main .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 50px;
+    border-radius: 20px;
+    background: rgb(202 253 255 / 50%);
+}
+
+.main .input .talk{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+.main .input .talk i{
+    font-size: 20px;
+    color: #aed0d0;
+}
+.main .input .content{
+    color: #aed0d0;
+    letter-spacing: 3px;
+    margin-right: 20px;
+}
+
+@media (min-width: 300px) {
+   .content{
+    font-size: 17px;
+    text-align: center;
+   }
+  }
